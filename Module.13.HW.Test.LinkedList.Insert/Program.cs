@@ -18,7 +18,7 @@ namespace Module._13.HW.Test.LinkedList.Insert
 
             UsersNames.AddAfter(igor, "Павел"); // Вставляем новое имя
 
-            Console.WriteLine($"Вставка в  словарь: {stopWatch.Elapsed.TotalMilliseconds}  мс"); // Выводим результат
+            Console.WriteLine($"Вставка в связанный список: {stopWatch.Elapsed.TotalMilliseconds}  мс"); // Выводим результат
         }
     }
 }
